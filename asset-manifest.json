@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/chatbot/static/css/main.5f361e03.chunk.css",
-    "main.js": "/chatbot/static/js/main.31a6da93.chunk.js",
-    "main.js.map": "/chatbot/static/js/main.31a6da93.chunk.js.map",
+    "main.js": "/chatbot/static/js/main.414c2dd4.chunk.js",
+    "main.js.map": "/chatbot/static/js/main.414c2dd4.chunk.js.map",
     "runtime-main.js": "/chatbot/static/js/runtime-main.253fb56a.js",
     "runtime-main.js.map": "/chatbot/static/js/runtime-main.253fb56a.js.map",
-    "static/js/2.de99f582.chunk.js": "/chatbot/static/js/2.de99f582.chunk.js",
-    "static/js/2.de99f582.chunk.js.map": "/chatbot/static/js/2.de99f582.chunk.js.map",
+    "static/js/2.4a8fec74.chunk.js": "/chatbot/static/js/2.4a8fec74.chunk.js",
+    "static/js/2.4a8fec74.chunk.js.map": "/chatbot/static/js/2.4a8fec74.chunk.js.map",
     "index.html": "/chatbot/index.html",
-    "precache-manifest.5a3afaeadd4c870dbc1939366ba8de6a.js": "/chatbot/precache-manifest.5a3afaeadd4c870dbc1939366ba8de6a.js",
+    "precache-manifest.18a897efb61d2d591c56c4bb2df4273c.js": "/chatbot/precache-manifest.18a897efb61d2d591c56c4bb2df4273c.js",
     "service-worker.js": "/chatbot/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/chatbot/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.de99f582.chunk.js.LICENSE.txt": "/chatbot/static/js/2.de99f582.chunk.js.LICENSE.txt",
+    "static/js/2.4a8fec74.chunk.js.LICENSE.txt": "/chatbot/static/js/2.4a8fec74.chunk.js.LICENSE.txt",
     "static/media/tone.mp3": "/chatbot/static/media/tone.fedc1eda.mp3"
   },
   "entrypoints": [
     "static/js/runtime-main.253fb56a.js",
-    "static/js/2.de99f582.chunk.js",
+    "static/js/2.4a8fec74.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.31a6da93.chunk.js"
+    "static/js/main.414c2dd4.chunk.js"
   ]
 }
