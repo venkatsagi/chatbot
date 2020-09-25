@@ -15,7 +15,7 @@ const SimpleForm = () => {
             },
             {
               id: '2',
-              message: "I've been asked to make sure your system is ready for a Doxy.me call. Shall we get started?",
+              message: "I've been asked to make sure your system is ready for a BSWH call. Shall we get started?",
               trigger: '3'
             },
             {
@@ -111,6 +111,11 @@ const SimpleForm = () => {
               options: [
                 { value: true, label: 'Try Again!', trigger: '10' }
               ]
+            },
+            {
+              id: 'no-devices-message',
+              message: "Uh oh! Looks like you dont have either camera or microphone connected to your device",
+              trigger: '17'             
             },
             {
                 id: '18',
