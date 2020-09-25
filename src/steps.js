@@ -1,6 +1,7 @@
 import React from 'react';
 import ChatBot from 'react-simple-chatbot';
 import AllowButton from './AllowButton';
+import VideoFeed from './videoFeed';
 
 const SimpleForm = () => {
       return (
@@ -54,7 +55,7 @@ const SimpleForm = () => {
               id: '7',
               message: "Do you hear the sound I'm playing?",
               trigger: '8'          
-            },
+            },           
             {
                 id: '8',
                   options: [
@@ -120,7 +121,13 @@ const SimpleForm = () => {
             {
                 id: '18',
                 message: "Say something into your microphone?🎙️",
-                trigger: '19'          
+                trigger: 'microphone'          
+            },
+            {
+              id: 'microphone',
+              component: <></>,
+              asMessage: true,
+              trigger: '19'
             },
             {
                 id: '19',
@@ -134,7 +141,7 @@ const SimpleForm = () => {
             },
             {
                 id: 'video',
-                component: <></>,
+                component: <VideoFeed />,
                 asMessage: false,
                 trigger: '21'
             },
