@@ -2,6 +2,7 @@ import React from 'react';
 import ChatBot from 'react-simple-chatbot';
 import AllowButton from './AllowButton';
 import VideoFeed from './videoFeed';
+import IsBrowserSupported from './isBrowserSupported';
 
 const SimpleForm = () => {
       return (
@@ -22,9 +23,31 @@ const SimpleForm = () => {
             {
               id: '3',
                 options: [
-                  { value: true, label: 'Yes, please', trigger: '4' },
+                  { value: true, label: 'Yes, please', trigger: 'isBrowserSupported' },
                   { value: false, label: 'No, thanks', trigger: 'end-message' },
                 ]
+            },
+            {
+              id: "isBrowserSupported",
+              component: <IsBrowserSupported />,
+              asMessage: true,
+              waitAction: true,
+            },
+            {
+              id: "browserNotSupported_1",
+              message:
+                "Unfortunately, MyBSWHealth Video Call requires features that your web browser doesn’t support ",
+              trigger: "browserNotSupported_2",
+            },
+            {
+              id: "browserNotSupported_2",
+              message:
+                "You are using an unsupported browser. Please install a recent version of Chrome",
+              trigger: "browserNotSupported_3",
+            },
+            {
+              id: "browserNotSupported_3",
+              options: [{ value: false, label: "EXIT", trigger: "end-message" }],
             },
             {
               id: '4',
